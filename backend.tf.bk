@@ -1,0 +1,7 @@
+terraform {
+ backend "gcs" {
+   bucket  = "qwiklabs-gcp-03-c56b004fe726-bucket-tfstate"
+ }
+}
+
+
